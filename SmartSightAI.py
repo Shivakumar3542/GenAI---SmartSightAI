@@ -11,8 +11,10 @@ from paddleocr import PaddleOCR
 import google.generativeai as genai
 from langchain_google_genai import GoogleGenerativeAI
 
+Tess = file.open("tesseract.exe")
+
 # Setting the path to Tesseract OCR executable for extracting text
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = Tess
 
 # Initializing Google Generative AI with the provided API key
 GEMINI_API_KEY = 'AIzaSyAdRw5RBVvuch-aYoXa0aOS3NHYOKPrJ1Q'  # Replacing with a valid API key
