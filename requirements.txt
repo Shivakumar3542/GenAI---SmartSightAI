@@ -1,7 +1,10 @@
-streamlit==1.18.1
-Pillow==9.3.0
+streamlit==1.22.0
+gTTS==2.3.1
+pyttsx3==2.90
+paddlepaddle==2.6.2  # You may need to verify the version suitable for PaddleOCR
+paddleocr==2.6.1
 pytesseract==0.3.10
-gTTS==2.2.3
-langchain==0.0.200  
-langchain-google-genai==0.0.1  
-httpx==0.23.0  
+google-generativeai==0.1.0  # Please confirm the version based on your usage
+opencv-python==4.7.0.72
+numpy==1.23.4
+Pillow==8.4.0
