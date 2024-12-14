@@ -8,4 +8,7 @@ paddleocr==2.6.0.1
 langchain-google-genai==0.1.3
 paddlepaddle==2.5.1
 google-generativeai==0.3.0
-setuptools==68.0.0
+setuptools>=68.0.0
+
+# Temporary fix for setuptools import issue
+distlib>=0.3.7
